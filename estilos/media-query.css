@@ -9,9 +9,15 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #5f2c82;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body {
-    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    background-image: linear-gradient(to top, #4aa19e, #5f2c82);
   }
   section#login {
     width: 80vw;
@@ -30,7 +36,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 992px) {
   body {
-    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    background-image: linear-gradient(to top, #4aa19e, #5f2c82);
   }
 
   section#login {
